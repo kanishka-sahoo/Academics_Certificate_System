@@ -2,8 +2,6 @@
 
 A web application for issuing and verifying academic certificates using blockchain (Ethereum) and IPFS for decentralized storage and enhanced security. Built with Python (Streamlit, Web3.py), Solidity (Smart Contracts), and Firebase Authentication.
 
-![Project Banner](assets/comp_logo.png)
-
 ## Table of Contents
 
 *   [Description](#description)
@@ -156,16 +154,6 @@ This system provides a secure and transparent way for academic institutions to i
     *   **Verify by PDF:** Upload the certificate PDF. The system attempts to extract data, calculate the ID, and checks the blockchain for validity. The PDF is displayed along with the verification result.
     *   **Verify by ID:** Enter the Certificate ID. The system retrieves details from the blockchain, fetches the PDF from IPFS, and displays it along with a verification status.
 
-## Demo
-
-![Institution Dashboard](placeholder-for-institution-dashboard.png)
-*The institution dashboard for managing certificate issuance and tracking*
-
-![Certificate Issuance](placeholder-for-certificate-issuance.png)
-*The certificate issuance interface*
-
-![Certificate Verification](placeholder-for-verification.png)
-*The verification interface showing a successfully verified certificate*
 
 ## Security Note
 
@@ -192,7 +180,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
